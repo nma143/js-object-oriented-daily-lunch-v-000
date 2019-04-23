@@ -55,7 +55,7 @@ class Meal
     return store.deliveries.filter(delivery =>{return delivery.mealId == this.id});
   }
 
-  
+
 }
 
 let deliveryId = 0;
