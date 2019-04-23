@@ -17,6 +17,7 @@ class Customer
   constructor (name, neighborhood)
   {
     this.id = ++customerId;
+    this.neighborhoodId = neighborhood.id;
     this.name = name;
     store.neighborhoods.push(this)
   }
