@@ -30,6 +30,10 @@ class Customer
     this.name = name;
     store.customers.push(this)
   }
+  deliveries()
+  {
+    return store.deliveries.filter(delivery =>{return delivery.customerId == this.id});
+  }
 }
 let mealId = 0;
 class Meal
