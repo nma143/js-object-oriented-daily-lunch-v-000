@@ -22,7 +22,7 @@ class Neighborhood
 
   meals()
   {
-    this.deliveries().map(delivery => {return delivery.meal();});
+    this.deliveries().map(delivery => {return delivery.meal();}).filter();
   }
 
 }
