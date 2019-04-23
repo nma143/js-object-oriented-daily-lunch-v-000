@@ -19,6 +19,12 @@ class Neighborhood
   {
     return store.customers.filter(customer =>{return customer.neighborhoodId == this.id});
   }
+
+  meals()
+  {
+    
+  }
+  
 }
 let customerId = 0;
 class Customer
@@ -42,7 +48,6 @@ class Customer
   {
     return this.meals().reduce(function(a, b){return a + b.price;}, 0);
   }
-
 
 }
 let mealId = 0;
