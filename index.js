@@ -21,4 +21,3 @@ class Customer
     store.neighborhoods.push(this)
   }
 }
-
