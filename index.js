@@ -57,6 +57,6 @@ class Delivery
 
   meal()
   {
-    return store.meals.filter(meal =>{return meal.id == this.mealId});
+    return store.meals.find(meal =>{return meal.id == this.mealId});
   }
 }
