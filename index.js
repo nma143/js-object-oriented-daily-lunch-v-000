@@ -10,6 +10,11 @@ class Neighborhood
     this.name = name;
     store.neighborhoods.push(this)
   }
+
+  deliveries()
+  {
+    
+  }
 }
 let customerId = 0;
 class Customer
