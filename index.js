@@ -22,7 +22,9 @@ class Neighborhood
 
   meals()
   {
-    this.deliveries().map(delivery => {return delivery.meal();}).filter();
+    let deliveryMeals = this.deliveries().map(delivery => {return delivery.meal();});
+    let uniqueMeals = [... new Set(deliveryMeals)];
+    return uniqueMeals;
   }
 
 }
