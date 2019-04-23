@@ -60,7 +60,7 @@ class Meal
   }
   static byPrice()
   {
-
+    store.meals.slice().sort(function (a, b){return b.price - a.price})
   }
 
 }
