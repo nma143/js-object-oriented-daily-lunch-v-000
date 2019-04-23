@@ -25,11 +25,11 @@ class Customer
 let mealId = 0;
 class Meal
 {
-  constructor (name, neighborhood)
+  constructor (title, price)
   {
     this.id = ++mealId;
-    this.neighborhoodId = neighborhood.id;
-    this.name = name;
-    store.customers.push(this)
+    this.title = title;
+    this.price = price;
+    store.meals.push(this)
   }
 }
