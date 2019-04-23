@@ -58,7 +58,7 @@ class Meal
   {
     return this.deliveries().map(delivery => {return delivery.customer();});
   }
-  byPrice()
+  static byPrice()
   {
     
   }
