@@ -43,7 +43,7 @@ class Customer
     return this.meals.reduce(function (a.price, b.price){return a+b;}, 0);
   }
 
-  
+
 }
 let mealId = 0;
 class Meal
