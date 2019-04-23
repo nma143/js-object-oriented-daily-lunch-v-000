@@ -60,7 +60,7 @@ class Meal
   }
   static byPrice()
   {
-    
+
   }
 
 }
